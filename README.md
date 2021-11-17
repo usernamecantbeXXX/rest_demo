@@ -7,12 +7,13 @@
 sudo mkdir /opt/webapps && cd /opt/webapps
 sudo git clone http://gitlab.admin.bluemoon.com.cn/xuxianxue/rest_demo.git
 cd ./rest_demo
-mvn clean package --settings ./settings.xml
+sudo mvn clean package --settings ./settings.xml
 ```
 
 ### Run with Jar
 
 ```
+ cd ./target
  java -jar rest_demo-0.0.1-SNAPSHOT.jar
 ```
 
