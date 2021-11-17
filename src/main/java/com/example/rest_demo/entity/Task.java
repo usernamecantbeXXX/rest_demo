@@ -15,11 +15,8 @@ import lombok.*;
 @TableName("d_task")
 public class Task {
     @TableId(value = "id",type = IdType.AUTO)
-    private int id;
+    private Integer id;
     private String title;
     private String dueDate;
     private String status;
-    @Version
-    @TableField(fill= FieldFill.INSERT)
-    private int version;
 }
