@@ -6,7 +6,7 @@
 ```
 git clone http://gitlab.admin.bluemoon.com.cn/xuxianxue/rest_demo.git
 cd ./rest_demo
-mvn clean package
+mvn clean package --settings ./settings.xml
 ```
 
 ### Run with Jar
