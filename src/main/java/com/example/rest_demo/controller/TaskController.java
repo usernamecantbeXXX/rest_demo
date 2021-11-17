@@ -54,6 +54,7 @@ public class TaskController {
      * Retrieve a specific Task, or a listing of Tasks.
      */
     @GetMapping()
+    @ResponseBody
     public List<Task> retrieve(@RequestParam(required = false) String expiredToday) {
         log.info("retrieve: " + expiredToday);
         return taskService.retrieve(expiredToday);

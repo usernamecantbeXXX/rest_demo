@@ -22,10 +22,18 @@ Service  start SUCCESS
 After start the app, call the API with Command Line mode As Below：
 
 ```
-sh ./tasks.sh add "write some codes" "17/11/2021" "todo"
+# GET
 sh ./tasks.sh list
 sh ./tasks.sh list --expiring-today
-sh ./tasks.sh done 3
+
+# POST
+sh ./tasks.sh add "curl add" "17/11/2021" "todo"
+
+# PUT 
+sh ./tasks.sh done "3" "curl put" "18/11/2021" "done"
+
+# DELETE
+sh ./tasks.sh delete "27" 
 
 ```
 
