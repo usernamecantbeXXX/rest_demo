@@ -4,7 +4,8 @@
 
 ### Compile
 ```
-git clone http://gitlab.admin.bluemoon.com.cn/xuxianxue/rest_demo.git
+sudo mkdir /opt/webapps && cd /opt/webapps
+sudo git clone http://gitlab.admin.bluemoon.com.cn/xuxianxue/rest_demo.git
 cd ./rest_demo
 mvn clean package --settings ./settings.xml
 ```
