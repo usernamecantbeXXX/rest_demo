@@ -66,25 +66,25 @@
         </plugins>
     </build>
 
-    <repositories>
-        <!-- Central Repository -->
-        <repository>
-            <id>central</id>
-            <name>aliyun maven</name>
-            <layout>default</layout>
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>snapshots</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </repository>
-        <repository>
-            <id>maven_central</id>
-            <name>Maven Central</name>
-            <url>https://repo.maven.apache.org/maven2/</url>
-        </repository>
-    </repositories>
+<!--    <repositories>-->
+<!--        &lt;!&ndash; Central Repository &ndash;&gt;-->
+<!--        <repository>-->
+<!--            <id>central</id>-->
+<!--            <name>aliyun maven</name>-->
+<!--            <layout>default</layout>-->
+<!--            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>-->
+<!--            <snapshots>-->
+<!--                <enabled>false</enabled>-->
+<!--            </snapshots>-->
+<!--        </repository>-->
+<!--        <repository>-->
+<!--            <id>snapshots</id>-->
+<!--            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>-->
+<!--        </repository>-->
+<!--        <repository>-->
+<!--            <id>maven_central</id>-->
+<!--            <name>Maven Central</name>-->
+<!--            <url>https://repo.maven.apache.org/maven2/</url>-->
+<!--        </repository>-->
+<!--    </repositories>-->
 </project>
