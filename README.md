@@ -1,9 +1,9 @@
 # Restful API Demo
 
 ## 1. Directly Run
-I have prepared a [tag.gz]() file included the jar compiled and scripts.
+I have prepared a [tar.gz](https://raw.githubusercontent.com/usernamecantbeXXX/rest_demo/master/rest.tar.gz) file included the jar compiled and scripts.
 
-Extract the tar.gz file, run the `start.sh` to start the web application.
+Extract the tar.gz file, run the `start.sh` to start the web application at 8080 port. The port can be changed in the `application.properties` file.
 
 ```
 tar -zxvf rest.tar.gz
@@ -57,6 +57,8 @@ sudo mvn clean package --settings ./settings.xml
 | delete | `DELETE /tasks/${id}` | `SUCCESS/FAILED` | tasks delete 3                          |
 | list   | `GET /tasks`          | A Task List      | tasks list /tasks list --expiring-today |
 
+![HTTP Requests](https://raw.githubusercontent.com/usernamecantbeXXX/rest_demo/master/http_request.png)
+
 ## 5. Architecture
 
 ### 5.1 Technical Stacks
@@ -65,6 +67,8 @@ sudo mvn clean package --settings ./settings.xml
 - SpringBoot
 - Mybatis-plus
 - SQLite
+
+![SQLite DB](https://raw.githubusercontent.com/usernamecantbeXXX/rest_demo/master/sqlite_db.png)
 
 ### 5.2 Files Description
 ```
