@@ -1,7 +1,7 @@
 #!/bin/sh
 PIDFILE=service.pid
 if [ ! -d "logs" ]; then
-   mkdir logs
+   sudo mkdir logs
 fi
 if [ -f "$PIDFILE" ]; then
     echo "Service is already start ..."
